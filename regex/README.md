@@ -61,6 +61,7 @@ Quantifiers:
 - https?://(www\.)?\w+\.\w+
 - to capture both domain + top-level-domain. https?://(www\.)?(\w+)(\.\w+)
 
+To replace the captured group, use $1,$2,$3
 
 ### References 
 
