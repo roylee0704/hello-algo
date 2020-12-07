@@ -18,6 +18,7 @@ After enter your regex, press "ENTER" to navigate the next matched character.
 
 ### Snippets
 
+```
 .       - Any Character Except New Line
 \d      - Digit (0-9)
 \D      - Not a Digit (0-9)
@@ -46,7 +47,7 @@ Quantifiers:
 ?       - 0 or 1
 {3}     - Exact Number 
 {3,4}   - Range of Numbers (Minimum, Maximum)
-
+```
 
 ### Challenges
 
@@ -57,8 +58,8 @@ Quantifiers:
 
 2. url.in (grab domain name  + top-level-domain w/o www)
 
-- `/(http|https)://[a-zA-Z.]+/
-- https?://(www\.)?\w+\.\w+
+- `/(http|https)://[a-zA-Z.]+/`
+- `/https?://(www\.)?\w+\.\w+/`
 - to capture both domain + top-level-domain. `/https?://(www\.)?(\w+)(\.\w+)/`
 
 To replace the captured group, use $1,$2,$3
