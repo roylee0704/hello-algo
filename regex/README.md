@@ -1,7 +1,7 @@
 ## regex
 Learn regex with code editor (vs-code). 
 
-### Practice with your Editor
+### Turn your Editor as Regex Playground
 
 At `find` control,
 - enable regex,
