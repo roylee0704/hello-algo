@@ -14,3 +14,33 @@ do {
 
 // es-9
 console.log([...s.matchAll(re)]);
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+// interestingly, this has group within a group. Notice the outputs capture 
+// every single groups (including the one in the inner!)
+const tests = [
+    'Mr. Scahafer',
+    'Mr Smith',
+    'Ms Davis',
+    'Mrs. Robinson'];
+
+
+
+tests.forEach((t) => {
+    const [, title, , name] = t.match(/(M(r|rs|s).?)\s(\w+)/);
+    console.log(title, name)
+
+
+});
